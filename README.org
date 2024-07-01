@@ -1,0 +1,13 @@
+#+title: increment-ordinal
+
+Increment ordinal numbers with English-language suffixes.
+
+#+begin_src emacs-lisp
+(increment-ordinal "1st")
+;; 2nd
+#+end_src
+
+#+begin_src emacs-lisp
+(increment-ordinals-in-string "1st place")
+;; 2nd place
+#+end_src
