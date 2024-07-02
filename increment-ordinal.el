@@ -68,7 +68,7 @@ Example: \"1st place\" -> \"2nd place\""
                (match-string 1 with-ordinals-incremented)
                (match-string 2 with-ordinals-incremented)))
              (next-ordinal
-              (cashpw/increment-ordinal ordinal)))
+              (increment-ordinal ordinal)))
         (setq
          with-ordinals-incremented (concat
                                     (substring
